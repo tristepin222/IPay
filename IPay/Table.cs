@@ -8,5 +8,11 @@ namespace IPay
 {
     public class Table
     {
+        public int id;
+        public Table(int id)
+        {
+            this.id = id;
+        }
+        private Order order;
     }
 }

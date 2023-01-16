@@ -8,6 +8,12 @@ namespace IPay
 {
     public class HeadWaiter : Waiter
     {
+
+        public HeadWaiter(string name) : base(name)
+        {
+            this.name = name;
+
+        }
         public void validate(Order order)
         {
 

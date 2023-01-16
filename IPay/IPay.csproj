@@ -49,6 +49,12 @@
     <Compile Include="Bill.cs" />
     <Compile Include="Chef.cs" />
     <Compile Include="Customer.cs" />
+    <Compile Include="ListObject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListObject.Designer.cs">
+      <DependentUpon>ListObject.cs</DependentUpon>
+    </Compile>
     <Compile Include="ListPeople.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListObject.resx">
+      <DependentUpon>ListObject.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListPeople.resx">
       <DependentUpon>ListPeople.cs</DependentUpon>

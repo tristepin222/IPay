@@ -29,6 +29,28 @@ namespace IPay
         private void ListPeople_Load(object sender, EventArgs e)
         {
 
+            foreach(HeadWaiter head in headWaiters)
+            {
+                this.HeadWaiterList.AppendText(head.name + "\n");
+            }
+
+            foreach (Waiter waiter in waiters)
+            {
+                this.WaiterList.AppendText(waiter.name + "\n");
+            }
+            foreach (Chef chef in chefs)
+            {
+                this.ChefList.AppendText(chef.name + "\n");
+            }
+            foreach (Customer customer in customers)
+            {
+                this.CustomerList.AppendText(customer.name + "\n");
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

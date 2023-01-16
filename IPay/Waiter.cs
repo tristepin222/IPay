@@ -8,8 +8,16 @@ namespace IPay
 {
     public class Waiter
     {
+       
         private Order[] orders;
 
+        //bogus attribute so something can be displayed in the list
+        public string name;
+
+        public Waiter(string name)
+        {
+            this.name = name;
+        }
         public void take(Order order)
         {
 

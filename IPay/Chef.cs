@@ -8,6 +8,12 @@ namespace IPay
 {
     public class Chef
     {
+        public string name;
+
+        public Chef(string name)
+        {
+            this.name = name;
+        }
 
         public void confirm(Order order)
         {

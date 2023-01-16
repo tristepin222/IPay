@@ -8,7 +8,12 @@ namespace IPay
 {
     public class Customer
     {
+        public string name;
 
+        public Customer(string name)
+        {
+            this.name = name;
+        }
         public void book(Table table)
         {
 
