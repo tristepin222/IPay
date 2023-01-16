@@ -8,5 +8,18 @@ namespace IPay
 {
     internal class Customer
     {
+
+        public void book(Table table)
+        {
+
+        }
+        public void pay(Bill bill)
+        {
+
+        }
+        public void evaluate()
+        {
+
+        }
     }
 }

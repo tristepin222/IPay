@@ -8,5 +8,15 @@ namespace IPay
 {
     internal class Waiter
     {
+        private Order[] orders;
+
+        public void take(Order order)
+        {
+
+        }
+        public void send (Order order)
+        {
+
+        }
     }
 }
