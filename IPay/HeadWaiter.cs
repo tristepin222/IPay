@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IPay
 {
-    internal class HeadWaiter : Waiter
+    public class HeadWaiter : Waiter
     {
         public void validate(Order order)
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IPay
 {
-    internal class Chef
+    public class Chef
     {
 
         public void confirm(Order order)

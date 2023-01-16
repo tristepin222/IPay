@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IPay
 {
-    internal class Table
+    public class Table
     {
     }
 }
